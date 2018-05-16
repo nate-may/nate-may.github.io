@@ -47,7 +47,7 @@ header, footer, footer a {
 header img {
     width: 273px;
     height: auto;
-    float: center;
+    justify-content: center;
 }
 img{
 
