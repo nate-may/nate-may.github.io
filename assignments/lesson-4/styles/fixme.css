@@ -20,7 +20,7 @@ header {
 }
 
 main {
-    min-height: 5;
+    min-height: 5px;
 }
 
 main img {
@@ -36,9 +36,9 @@ footer {
     color: #fff;
     font-size: .8rem;
 
-    /* Class Selectors *******************/
+}    /* Class Selectors *******************/
 
     .profile {
         box-shadow: .25rem .25rem .25rem #ccaabb;
         border: 1px solid #777;}
-}
+
