@@ -19,10 +19,16 @@ header .subheading {}
 
 nav {}
 nav button {}
-nav ul {}
-nav ul li {}
+nav ul {
+
+}
+nav ul li {
+
+}
 nav ul li a {}
-nav ul li.active a {}
+nav ul li.active a {
+
+}
 nav ul li a:hover {}
 
 main {}
