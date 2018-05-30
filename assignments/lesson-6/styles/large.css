@@ -1,0 +1,6 @@
+@media only screen and (min-width: 64em ) {
+    section.forecast{display:block;}
+    nav ul li{
+        display: inline;
+    }
+}
