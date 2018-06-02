@@ -35,7 +35,7 @@ nav ul {
 
 }
 /*testing                             */
-.hamburger.active {display: block;}
+/*.hamburger.active {display: block;}*/
 @media only screen and (max-width: 37.5em){
 .navigation.responsive { position: relative; }
 .navigation.responsive li { background-color: #eee;	display: block;	width: 100%; margin: 2px 0;	border: 1px solid #ddd; }
