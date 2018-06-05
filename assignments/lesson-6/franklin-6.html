@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The Weather Page for Franklin-Site">
@@ -11,15 +12,13 @@
     <link rel="stylesheet" href="styles/large.css">
 
     <title>The Franklin Weather Page</title>
-
+    <header>
+        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+        <h1>Franklin Weather Page</h1>
+    </header>
 </head>
 
 <body>
-
-    <header>
-        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
-        <script src="scripts/hamburger.js"></script>
-    </header>
 
     <nav>
         <ul class="navigation">
@@ -33,7 +32,7 @@
     </nav>
 
     <main>
-        <h2>Franklin Weather Page</h2>
+
         <figure>
         </figure>
         <section class="weather-summary">
@@ -101,13 +100,14 @@
 
     <footer>
         <section class="contact">
-            <h4>
-                Nathaniel May, IL | may17014@byui.edu | (000)000-0000 BYU-Idaho Online</h4>
+            <strong><h4>
+                 Nathaniel May, IL | may17014@byui.edu | (000)000-0000 BYU-Idaho Online</h4></strong>
         </section>
         <section class="footer-bar">
-            <h5>&copy;2018 | Nathaniel D. May | Franklin Weather Page | <span id="currentdate">5/26/2018</span></h5>
+            <strong><h5>&copy;2018 | Nathaniel D. May | Franklin Weather Page | <span id="currentdate">5/26/2018</span></h5></strong>
         </section>
     </footer>
-
+    <script src="scripts/hamburger.js"></script>
 </body>
+
 </html>
