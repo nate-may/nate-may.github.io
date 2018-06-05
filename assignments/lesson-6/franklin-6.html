@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="styles/large.css">
 
     <title>The Franklin Weather Page</title>
-    <header>
-        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
-        <h1>Franklin Weather Page</h1>
-        <h2>It's Always a Good Time to Check</h2>
-    </header>
+
 </head>
+<header>
+    <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+    <h1>Franklin Weather Page</h1>
+    <h2>It's Always a Good Time to Check</h2>
+</header>
 
 <body>
 
@@ -58,34 +59,34 @@
         <section class="forecast">
             <h3>Ten Day Forecast</h3>
             <table>
-
-                <tr>
-                    <th>Day 1</th>
-                    <th>Day 2</th>
-                    <th>Day 3</th>
-                    <th>Day 4</th>
-                    <th>Day 5</th>
-                    <th>Day 6</th>
-                    <th>Day 7</th>
-                    <th>Day 8</th>
-                    <th>Day 9</th>
-                    <th>Day 10</th>
-                </tr>
-
-
-                <tr>
-                    <td>89&deg;F</td>
-                    <td>87&deg;F</td>
-                    <td>78&deg;F</td>
-                    <td>75&deg;F</td>
-                    <td>72&deg;F</td>
-                    <td>72&deg;F</td>
-                    <td>79&deg;F</td>
-                    <td>83&deg;F</td>
-                    <td>85&deg;F</td>
-                    <td>89&deg;F</td>
-                </tr>
-
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>89&deg;F</td>
+                        <td>87&deg;F</td>
+                        <td>78&deg;F</td>
+                        <td>75&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>79&deg;F</td>
+                        <td>83&deg;F</td>
+                        <td>85&deg;F</td>
+                        <td>89&deg;F</td>
+                    </tr>
+                </tbody>
             </table>
         </section>
 
@@ -105,9 +106,10 @@
                 Nathaniel May, IL | may17014@byui.edu | (000)000-0000 BYU-Idaho Online</h3>
         </section>
         <section class="footer-bar">
-            <h3>&copy;2018 | Nathaniel D. May | Franklin Weather Page | <span id="currentdate"><script src="scripts/currentdate.js"></script></span></h3>
+            <h3>&copy;2018 | Nathaniel D. May | The Weather Clock | <span id="currentdate"></span></h3>
         </section>
     </footer>
+    <script src="scripts/currentdate.js"></script>
     <script src="scripts/hamburger.js"></script>
 </body>
 
