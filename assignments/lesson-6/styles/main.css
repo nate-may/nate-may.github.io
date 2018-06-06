@@ -59,9 +59,10 @@ nav ul {
 .hamburger {
     display: block;
     position: static;
+}
 
-
-
+figure.articlePhoto {
+    margin: 0;
 }
 
 /*testing                             */
