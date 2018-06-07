@@ -27,5 +27,5 @@ month[11] = "December";
 
 
 var n = weekday[d.getDay()];
-var m = month[d.getmonth()];
+var m = month[d.getMonth()];
 document.getElementById("currentdate").innerHTML = n + ", " + d.getDate() + " " + m + " " + d.getFullYear();
