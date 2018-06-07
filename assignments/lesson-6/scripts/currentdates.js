@@ -19,7 +19,7 @@ month[5] = "June";
 month[6] = "July";
 month[7] = "August";
 month[8] = "September";
-month[9] = "Octber";
+month[9] = "October";
 month[10] = "November";
 month[11] = "December";
 
