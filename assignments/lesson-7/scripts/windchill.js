@@ -5,7 +5,7 @@
 
 var s = 5;
 var h = 90;
-var l = 60;
+var l = 66;
 var a = (h + l) / 2;
 windChill = 35.74 + .6215 * a - 35.75 * Math.pow(s, 0.16) + 0.4275 * a * Math.pow(s, 0.16);
 
