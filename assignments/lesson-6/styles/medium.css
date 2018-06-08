@@ -6,7 +6,7 @@
     }
     /* hamburger button does not need to be shown in the medium on up views */
     nav ul li {
-        display: inline;
+        display: flex;
     }
     section.forecast {
         display: block;
@@ -31,11 +31,11 @@
         text-align: center;
     }
     .navigation li {
-        display: inline-block;
+        display: flex;
         margin-left: .25rem;
     }
     .navigation a {
-        display: block;
+        display: flex;
         color: #eee;
         padding: .5rem;
         text-align: center;
