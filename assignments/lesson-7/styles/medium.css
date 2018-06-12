@@ -50,4 +50,8 @@
         display: grid;
         grid-template-columns: 450px 450px;
     }
+    .gallimgs figure{
+        padding-top: 2rem;
+        font-size: 16pt;
+    }
 }

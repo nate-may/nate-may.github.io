@@ -106,8 +106,10 @@ nav li {
     grid-template-columns: 450px;
 }
 .gallimgs figure{
-
+    padding-top: 2rem;
+    font-size: 16pt;
 }
+
 nav ul li a {}
 
 nav ul li.active a {}

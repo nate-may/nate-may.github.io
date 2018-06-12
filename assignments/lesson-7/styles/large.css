@@ -1,6 +1,6 @@
 @media only screen and (min-width: 64em) {
     section.forecast {
-        display: block;
+        display: flex;
     }
     nav ul li {
         display: flex;
@@ -9,7 +9,7 @@
     header,
     nav {
         margin: 0 auto;
-        max-width: 600px;
+        max-width: 700px;
     }
     h1 {
         text-align: center;
@@ -21,6 +21,7 @@
         background-color: dodgerblue;
         overflow: hidden;
         text-align: center;
+        font-size: 14pt;
     }
     .navigation li {
         display: inline-block;
@@ -41,5 +42,12 @@
         display: grid;
         grid-template-columns: 450px 450px 450px;
         justify-content: center;
+    }
+    .gallimgs figure {
+        padding-top: 2rem;
+        font-size: 16pt;
+    }
+    .gallimgs figure a:hover {
+        box-shadow: 5px 5px 10px gray;
     }
 }
