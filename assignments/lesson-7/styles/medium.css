@@ -26,7 +26,7 @@
         display: none;
     }
     .navigation {
-        background-color: darkblue;
+        background-color: dodgerblue;
         overflow: hidden;
         text-align: center;
     }
@@ -42,7 +42,7 @@
         text-decoration: none;
     }
     .navigation a:hover {
-        color: #000;
-        background-color: #777;
+        color: white;
+        background-color: darkblue;
     }
 }
