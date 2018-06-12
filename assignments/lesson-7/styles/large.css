@@ -3,7 +3,7 @@
         display: block;
     }
     nav ul li {
-        display: inline;
+        display: flex;
     }
     /*large css for hamb menu*/
     header,
@@ -27,7 +27,7 @@
         margin-left: .25rem;
     }
     .navigation a {
-        display: inline;
+        display: flex;
         color: #eee;
         padding: .5rem;
         text-align: center;

@@ -105,7 +105,9 @@ nav li {
     display: grid;
     grid-template-columns: 450px;
 }
+.gallimgs figure{
 
+}
 nav ul li a {}
 
 nav ul li.active a {}
