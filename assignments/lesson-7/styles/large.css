@@ -1,15 +1,45 @@
-@media only screen and (min-width: 64em ) {
-    section.forecast{display:block;}
-    nav ul li{
+@media only screen and (min-width: 64em) {
+    section.forecast {
+        display: block;
+    }
+    nav ul li {
         display: inline;
     }
     /*large css for hamb menu*/
-    header,	nav {	margin: 0 auto;	max-width: 600px;	}
-    h1 { text-align: center; }
-    .hamburger { display: none;	}
-    .navigation {	background-color: dodgerblue;	overflow: hidden;	text-align: center;	}
-    .navigation li { display: inline-block; margin-left: .25rem; }
-    .navigation a {	display: inline;	color: #eee;	padding: .5rem;	text-align: center;	text-decoration: none;}
-    .navigation a:hover {	color: white; background-color: darkblue;	}
+    header,
+    nav {
+        margin: 0 auto;
+        max-width: 600px;
+    }
+    h1 {
+        text-align: center;
+    }
+    .hamburger {
+        display: none;
+    }
+    .navigation {
+        background-color: dodgerblue;
+        overflow: hidden;
+        text-align: center;
+    }
+    .navigation li {
+        display: inline-block;
+        margin-left: .25rem;
+    }
+    .navigation a {
+        display: inline;
+        color: #eee;
+        padding: .5rem;
+        text-align: center;
+        text-decoration: none;
+    }
+    .navigation a:hover {
+        color: white;
+        background-color: darkblue;
+    }
+    .gallimgs {
+        display: grid;
+        grid-template-columns: 450px 450px 450px;
+        justify-content: center;
+    }
 }
-

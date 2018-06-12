@@ -37,14 +37,13 @@ header {
 
 header h1 {}
 
-header img {}
+header img {
+
+}
 
 header .subheading {}
 
-nav {
-    display: inline;
-
-}
+nav {}
 
 nav button {}
 
@@ -74,8 +73,9 @@ figure.articlePhoto {
     }
     .navigation.responsive li {
         background-color: skyblue;
-        display: block;
+        display: flex;
         align-items: center;
+        flex-direction: column;
         width: 100%;
         margin: 2px 0;
         border: 1px solid #ddd;
@@ -83,7 +83,8 @@ figure.articlePhoto {
     .navigation.responsive li a {
         padding: 1rem;
         text-align: center;
-        display: block;
+        display: flex;
+        flex-direction: column;
         text-decoration: none;
     }
     .navigation.responsive li a:hover {
@@ -99,6 +100,10 @@ nav li {
 .navigation {
     list-style: none;
     padding-left: 0;
+}
+.gallimgs{
+    display: grid;
+    grid-template-columns: 450px;
 }
 
 nav ul li a {}
