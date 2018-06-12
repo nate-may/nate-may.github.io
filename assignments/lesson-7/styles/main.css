@@ -57,8 +57,7 @@ nav ul {
 /*css hamb*/
 
 .hamburger {
-    display: block;
-    position: static;
+    display: flex;
 }
 
 figure.articlePhoto {
