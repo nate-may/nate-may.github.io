@@ -1,97 +1,51 @@
-/* Delete these CSS comments after reading. */
-
-/* This main css file contains the default rules and is geared toward the small/phone view */
+/*** First I just took out the styles that weren't being used ***/
 
 * {
     box-sizing: border-box;
 }
 
-/* This wildcard applies to all elements ensuring a box layout model */
+/*** I changed the body margin to 0 so that the blue background stretches all the way to the edges***/
+
+/*** GENERAL STYLES ***/
 
 body {
     font-size: 16px;
     font-family: sans-serif;
     color: aliceblue;
-    /* Declare the base font-family */
+    margin: 0;
 }
+
+/*** I added main to this list since it was being styled that way later on anyway. It could be included as a general style here.***/
 
 header,
 nav,
 main,
 footer {
-    /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
     max-width: 100%;
-    padding-top: 0rem
-    /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+    text-align: center;
 }
 
-section.forecast {
-    display: none;
-}
+/*** I took out the background color and made the words blue ***/
+
+/*** HEADER ***/
 
 header {
-    background-color: dodgerblue;
     text-align: center;
-    color: aliceblue;
+    color: dodgerblue;
 }
 
-header h1 {}
+/*** I reduced the margins for the title and subtitle, and changed the color of the subtitle for some contrast ***/
 
-header img {
-
+header h1 {
+    margin: 20px 0 0 0;
 }
 
-header .subheading {}
-
-nav {}
-
-nav button {}
-
-nav ul {
-
-    max-width: 100vw;
-
+header h2 {
+    margin: 5px;
+    color: darkblue;
 }
 
-/*css hamb*/
-
-.hamburger {
-    display: flex;
-}
-
-figure.articlePhoto {
-    margin: 0;
-}
-
-/*testing                             */
-
-/*.hamburger.active {display: block;}*/
-
-@media only screen and (max-width: 37.5em) {
-    .navigation.responsive {
-        position: relative;
-    }
-    .navigation.responsive li {
-        background-color: skyblue;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        margin: 2px 0;
-        border: 1px solid #ddd;
-    }
-    .navigation.responsive li a {
-        padding: 1rem;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        text-decoration: none;
-    }
-    .navigation.responsive li a:hover {
-        background-color: dodgerblue;
-        color: aliceblue;
-    }
-}
+/***NAVIGATION***/
 
 nav li {
     display: none;
@@ -101,38 +55,128 @@ nav li {
     list-style: none;
     padding-left: 0;
 }
-.gallimgs{
-    display: grid;
-    grid-template-columns: 450px;
-}
-.gallimgs figure{
-    padding-top: 2rem;
-    font-size: 16pt;
+
+.hamburger {
+    display: flex;
 }
 
-nav ul li a {}
+/*** Media Query was here. I only removed the query and changed the color of the button. I made the font size bigger***/
 
-nav ul li.active a {}
+.navigation.responsive li {
+    background-color: skyblue;
+    /*** display block is the only way I know to make the whole button a link ***/
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 2px 0;
+    border: 1px solid #ddd;
+    font-size: 1.2rem;
+}
 
-nav ul li a:hover {}
+.navigation.responsive li a {
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
 
-main {
-    max-width: 100vw;
+.navigation.responsive li a:hover {
     background-color: dodgerblue;
+    color: aliceblue;
 }
 
-main h2 {}
+.navigation.responsive li:hover {
+    color: dodgerblue;
+}
 
+.hamburger {
+    font-size: 1.5rem;
+    margin: 5px 20px;
+}
+
+/*** MAIN ***/
+
+/***I added some padding and styles for the section.weather-summary to give it some breathing room and to be more readable. I made the weather summary section blue instead of the whole main section to break up the color and divide the article from the summary.***/
+
+/*** this part wasn't being used
 main figure {
-    margin: 0 0 .2rem 2%;
-    width: 96%;
+margin: 0 0 .2rem 2%;
+width: 96%;
+} ***/
+
+section.weather-summary {
+    background-color: dodgerblue;
+    padding: 20px;
+    font-size: 1.5rem;
 }
 
-main figure img {}
+div.summaryBorder {
+    border: 5px solid white;
+}
 
-.footer-bar {}
+/*** I changed the position of the sun ***/
+
+.current {
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+    max-width: 25%;
+    margin: auto;
+}
+
+/*** I added some styles for the article ***/
+
+article {
+    padding: 20px;
+    color: darkblue;
+}
+
+article h3 {
+    color: dodgerblue;
+    font-size: 1.6rem;
+}
+
+section.forecast {
+    display: none;
+}
+
+/***I added overflow: hidden so that the photo didn't go outside it's container***/
+
+figure.articlePhoto {
+    max-width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+/*** GALLERY ***/
+
+/***made the columns display at a percentage so they centered on the page***/
+
+.gallimgs {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+/*** added color to the captions***/
+
+.gallimgs figure {
+    padding-top: rem;
+    font-size: 16pt;
+    color: darkblue;
+}
+
+/**Gave the captions some more room***/
+
+.gallimgs figcaption {
+    padding-top: 1.2rem;
+}
+
+/*** FOOTER ***/
 
 footer {
+    padding: 20px;
     background-color: dodgerblue;
     text-align: center;
 }

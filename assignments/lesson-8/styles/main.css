@@ -1,0 +1,138 @@
+/* Delete these CSS comments after reading. */
+
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: aliceblue;
+    /* Declare the base font-family */
+}
+
+header,
+nav,
+main,
+footer {
+    /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+    max-width: 100%;
+    padding-top: 0rem
+    /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+section.forecast {
+    display: none;
+}
+
+header {
+    background-color: dodgerblue;
+    text-align: center;
+    color: aliceblue;
+}
+
+header h1 {}
+
+header img {
+
+}
+
+header .subheading {}
+
+nav {}
+
+nav button {}
+
+nav ul {
+
+    max-width: 100vw;
+
+}
+
+/*css hamb*/
+
+.hamburger {
+    display: flex;
+}
+
+figure.articlePhoto {
+    margin: 0;
+}
+
+/*testing                             */
+
+/*.hamburger.active {display: block;}*/
+
+@media only screen and (max-width: 37.5em) {
+    .navigation.responsive {
+        position: relative;
+    }
+    .navigation.responsive li {
+        background-color: skyblue;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 2px 0;
+        border: 1px solid #ddd;
+    }
+    .navigation.responsive li a {
+        padding: 1rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
+    .navigation.responsive li a:hover {
+        background-color: dodgerblue;
+        color: aliceblue;
+    }
+}
+
+nav li {
+    display: none;
+}
+
+.navigation {
+    list-style: none;
+    padding-left: 0;
+}
+.gallimgs{
+    display: grid;
+    grid-template-columns: 450px;
+}
+.gallimgs figure{
+    padding-top: 2rem;
+    font-size: 16pt;
+}
+
+nav ul li a {}
+
+nav ul li.active a {}
+
+nav ul li a:hover {}
+
+main {
+    max-width: 100vw;
+    background-color: dodgerblue;
+}
+
+main h2 {}
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+main figure img {}
+
+.footer-bar {}
+
+footer {
+    background-color: dodgerblue;
+    text-align: center;
+}

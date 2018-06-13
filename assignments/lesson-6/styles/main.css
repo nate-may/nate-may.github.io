@@ -18,10 +18,12 @@ body {
 header,
 nav,
 main,
+body,
 footer {
     /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
     max-width: 100%;
-    padding-top: 0rem
+    padding-top: 0;
+    margin-top: 0;
     /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
@@ -33,11 +35,17 @@ header {
     background-color: dodgerblue;
     text-align: center;
     color: aliceblue;
+
 }
 
 header h1 {}
 
 header img {}
+
+figure.weatherclock_logo {
+    margin-top: 2rem;
+    padding-top: 30px;
+}
 
 header .subheading {}
 
