@@ -154,6 +154,8 @@ figure.articlePhoto {
 
 /***made the columns display at a percentage so they centered on the page***/
 
+/*Ingenious, the video in the course material was misleading then.*/
+
 .gallimgs {
     display: grid;
     grid-template-columns: 100%;
@@ -162,7 +164,7 @@ figure.articlePhoto {
 /*** added color to the captions***/
 
 .gallimgs figure {
-    padding-top: rem;
+    padding-top: 0rem;
     font-size: 16pt;
     color: darkblue;
 }
