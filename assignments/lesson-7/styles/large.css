@@ -54,7 +54,7 @@
         padding-top: 2rem;
         font-size: 16pt;
     }
-    .gallimgs figure:hover {
-        box-shadow: 5px 5px 10px gray;
+    .gallimgs figure img:hover {
+        box-shadow: 10px 10px 15px gray;
     }
 }
