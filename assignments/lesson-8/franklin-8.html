@@ -17,17 +17,20 @@
 
 <body>
     <header>
-        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+
         <figure class="weatherclock_logo">
-            <img src="images/weatherclock_logo.jpeg" alt="Weather Clock Logo" sizes="100vw" srcset="images/logo-small.jpg 600w, images/logo-medium 800w, images/logo-large.jpg 1200w">
+            <img src="images/weatherclock_logo_large.png" alt="Weather Clock Logo" sizes="100vw" srcset="images/logo-small.jpg 600w, images/logo-medium 800w, images/weatherclock_logo_large.png 1800w">
         </figure>
-        <h1>Franklin Weather Page</h1>
-        <h2>It's Always a Good Time to Check</h2>
+        <div class=titlestyle>
+            <h1>Franklin Weather Page</h1>
+            <h2>It's Always a Good Time to Check</h2>
+        </div>
     </header>
 
 
 
     <nav>
+        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
         <ul class="navigation">
             <li><a href="/assignments/lesson-4/franklin-4.html">Home</a></li>
             <li><a href="/assignments/lesson-7/franklin-7.html">Franklin</a></li>
@@ -43,22 +46,25 @@
         <figure>
         </figure>
         <section class="weather-summary">
-            <h3>Weather Summary</h3>
-            <div class="highlow">
-                <p>High:90&deg;F</p>
-                <p>Low:66&deg;F</p>
+            <!--Div here thanks to Marilee, that allows for easier border styling-->
+            <div class=summaryBorder>
+                <h3>Weather Summary</h3>
+                <div class="highlow">
+                    <p>High:90&deg;F</p>
+                    <p>Low:66&deg;F</p>
 
-            </div>
-            <div class="current">
-                Sunny
-                <picture>
-                    <img src="images/sunny.png" alt="Sunny" height="100">
-                </picture>
-            </div>
-            <div class="conditions">
-                <p>Precipitation:0%</p>
-                <p>Wind Speed:5 MPH SW</p>
-                <p>Wind Chill: <span id="windChill"></span>&deg;F</p>
+                </div>
+                <div class="current">
+                    Sunny
+                    <picture>
+                        <img src="images/sunny.png" alt="Sunny" height="100">
+                    </picture>
+                </div>
+                <div class="conditions">
+                    <p>Precipitation:0%</p>
+                    <p>Wind Speed:5 MPH SW</p>
+                    <p>Wind Chill: <span id="windChill"></span>&deg;F</p>
+                </div>
             </div>
         </section>
 
@@ -111,11 +117,11 @@
     <footer>
         <section class="contact">
             <h3>
-                Nathaniel May, IL | may17014@byui.edu | (000)000-0000 BYU-Idaho Online</h3>
+                Nathaniel May, IL | may17014@byui.edu<br> (000)000-0000 BYU-Idaho Online</h3>
         </section>
         <section class="footer-bar">
 
-            <h4>&copy;2018 | Nathaniel D. May | The Weather Clock | <span id="currentdate">
+            <h4>&copy;2018 | Nathaniel D. May | The Weather Clock <br> <span id="currentdate">
                 </span></h4>
 
         </section>
