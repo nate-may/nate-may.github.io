@@ -48,21 +48,23 @@
                 <label class="top">Full Name*<br><input type="text" name="fullname" placeholder="John Doe" pattern="regular" required></label><br>
                 <label class="top">Email<br><input type="email" name="email" placeholder="johndoe@gmail.com"></label><br>
                 <label class="top">Phone<br><input type="tel" name="phonenumber"required></label><br>
-                <label class="top">Zipcode<br><input type="number" required></label>
+                <label class="top">Zipcode<br><input type="number" name="zipcode" required></label>
             </fieldset>
             <fieldset>
                 <legend>Storm Info</legend>
                 <label class="sbs">Storm Type<select name="stormType">
-                <option>Flash Flood</option>
-                <option>Major Flood</option>
-                <option>Thunderstorm</option>
-                <option>Hurrricane</option>
-                <option>Tornado</option>
-                <option>Hail</option>
-                <option>Heavy Rain</option>
-                <option>Sand Storm</option>
+                <option>Please Select Type</option>
+                <option value="flashFlood">Flash Flood</option>
+                <option value="majorFlood">Major Flood</option>
+                <option value="thunderstorm">Thunderstorm</option>
+                <option value="hurricane">Hurrricane</option>
+                <option value="tornado">Tornado</option>
+                <option value="hail">Hail</option>
+                <option value="heavyRain">Heavy Rain</option>
+                <option value="sandStorm">Sand Storm</option>
                     </select>
                     </label>
+                <label class="sbs" name="stormSeverity">Storm Severity<input type="range">0-10</label>
             </fieldset>
             <input type="submit" value="Record Storm" class="submitBtn">
         </form>
