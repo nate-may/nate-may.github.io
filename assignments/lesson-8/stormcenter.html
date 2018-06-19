@@ -63,8 +63,13 @@
                 <option value="heavyRain">Heavy Rain</option>
                 <option value="sandStorm">Sand Storm</option>
                     </select>
-                    </label>
-                <label class="sbs" name="stormSeverity">Storm Severity<input type="range">0-10</label>
+                    </label><br>
+                <label class="sbs" name="stormSeverity">Storm Severity<input type="range" name="points" min="0" max="10">0-10</label>
+                <!-- Attempt to have label display, from Pen example....
+<label for="rating">Storm Severity (1 to 10)</label>
+                <input type="range" id="rating" onclick="adjustrating(rating)" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue"></span><br>
+                <div id="ratingvalue"></div>-->
             </fieldset>
             <input type="submit" value="Record Storm" class="submitBtn">
         </form>
@@ -84,6 +89,7 @@
     </footer>
     <script src="scripts/currentdates.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <!--<script src="scripts/ratingvalue.js"></script>-->
 </body>
 
 </html>
