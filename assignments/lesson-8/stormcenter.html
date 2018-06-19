@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
 
-    <title>The Franklin Weather Page</title>
+    <title>The Storm Center</title>
 
 </head>
 
@@ -22,8 +22,8 @@
             <img src="images/weatherclock_logo_large.png" alt="Weather Clock Logo" sizes="100vw" srcset="images/logo-small.jpg 600w, images/logo-medium 800w, images/weatherclock_logo_large.png 1800w">
         </figure>
         <div class=titlestyle>
-            <h1>Franklin Weather Page</h1>
-            <h2>It's Always a Good Time to Check</h2>
+            <h1>Storm Center Page</h1>
+            <h2>Have you seen a Storm Lately?</h2>
         </div>
     </header>
 
@@ -33,7 +33,7 @@
         <button class="hamburger" onclick="toggleHam()">&#9776;</button>
         <ul class="navigation">
             <li><a href="/assignments/lesson-8/franklin-8.html">Home</a></li>
-            <li><a href="/assignments/lesson-7/franklin-7.html">Franklin</a></li>
+            <li><a href="/assignments/lesson-8/franklin-8.html">Franklin</a></li>
             <li><a href="#">Greenville</a></li>
             <li><a href="#">Springfield</a></li>
             <li><a href="/assignments/lesson-8/stormcenter.html">Storm Center</a></li>
@@ -43,14 +43,19 @@
     <main>
 
         <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Storm Watcher Information</legend>
+                <label class="top">Full Name*<br><input type="text" name="fullname" placeholder="John Doe" pattern="regular" required></label><br>
 
+            </fieldset>
+            <input type="submit" value="Record Storm" class="submitBtn">
         </form>
 
     </main>
     <footer>
         <section class="contact">
             <h3>
-                Nathaniel May, IL | may17014@byui.edu<br> (000)000-0000 BYU-Idaho Online</h3>
+                Nathaniel May, IL <br>may17014@byui.edu<br> (000)000-0000 BYU-Idaho Online</h3>
         </section>
         <section class="footer-bar">
 
