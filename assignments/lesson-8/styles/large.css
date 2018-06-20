@@ -57,4 +57,15 @@
     .gallimgs figure img:hover {
         box-shadow: 10px 10px 15px gray;
     }
+    form label.sbs {
+        padding: .4rem 0;
+    }
+    form header,
+    nav,
+    main,
+     {
+        max-width: 64rem;
+        margin:auto;
+        text-align: left
+    }
 }

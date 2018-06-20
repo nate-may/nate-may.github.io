@@ -52,7 +52,7 @@
             </fieldset>
             <fieldset>
                 <legend>Storm Info</legend>
-                <label class="sbs">Storm Type<select name="stormType">
+                <label class="sbs">Storm Type <datalist id="stormType" name="stormType">
                 <option>Please Select Type</option>
                 <option value="flashFlood">Flash Flood</option>
                 <option value="majorFlood">Major Flood</option>
@@ -62,16 +62,30 @@
                 <option value="hail">Hail</option>
                 <option value="heavyRain">Heavy Rain</option>
                 <option value="sandStorm">Sand Storm</option>
-                    </select>
+                    </datalist>
                     </label><br>
-                <label class="sbs" name="stormSeverity">Storm Severity<input type="range" name="points" min="0" max="10">0-10</label>
+                <label class="sbs" name="stormSeverity">Storm Severity  <input type="range" name="points" min="0" max="10">  0-10</label><br>
                 <!-- Attempt to have label display, from Pen example....
 <label for="rating">Storm Severity (1 to 10)</label>
                 <input type="range" id="rating" onclick="adjustrating(rating)" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                 <span id="ratingvalue"></span><br>
                 <div id="ratingvalue"></div>-->
+                <label class="sbs">Date <input type="date" name="completeDate"></label><br>
+                <label class="sbs">Danger Level   <input type="radio" name="dangerLevel" value="yes">Yes</label>
+                <label class="sbs"><input type="radio" name="dangerLevel2" value="no">No</label>
+                <label class="sbs"><input type="radio" name="dangerLevel3" value="maybe">Maybe</label><br>
+                <label class="sbs">Storm Region<select name="stormRegion">
+                    <option>Select Region</option>
+                    <option value="Franklin">Franklin</option>
+                    <option value="Greenville">Greenville</option>
+                    <option value="Springfield">Springfield</option>
+                    </select>
+                </label><br>
+                <label class="sbs">Additional Information</label><br>
+                <textarea class="sbs" name="addInfo"></textarea><br>
+
+                <input type="submit" value="Record Storm" class="submitBtn">
             </fieldset>
-            <input type="submit" value="Record Storm" class="submitBtn">
         </form>
 
     </main>

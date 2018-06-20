@@ -175,6 +175,58 @@ figure.articlePhoto {
     padding-top: 1.2rem;
 }
 
+/*Form*/
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: blue;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    color: blue;
+    font-size: .8rem;
+    text-align: left;
+
+}
+
+form label.top input,
+form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 30rem;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+form label.sbs {
+    color: blue;
+    text-align: left;
+}
+
+form label.top input: required {
+    border-left: red solid 6px;
+}
+
+form label.top input: required:valid {
+    border-left: green solid 6px;
+}
+
 /*** FOOTER ***/
 
 footer {
