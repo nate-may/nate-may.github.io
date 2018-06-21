@@ -52,18 +52,21 @@
             </fieldset>
             <fieldset>
                 <legend>Storm Info</legend>
-                <label class="sbs">Storm Type <select id="stormType" name="stormType">
+                <div>
+                    <label class="sbs"><span>Storm Type:  </span><input type="text" name="stormtype" list="storms">
+                    <datalist id="storms">
                 <option>Please Select Type</option>
-                <option value="flashFlood">Flash Flood</option>
-                <option value="majorFlood">Major Flood</option>
-                <option value="thunderstorm">Thunderstorm</option>
-                <option value="hurricane">Hurrricane</option>
-                <option value="tornado">Tornado</option>
-                <option value="hail">Hail</option>
-                <option value="heavyRain">Heavy Rain</option>
-                <option value="sandStorm">Sand Storm</option>
-                    </select>
-                    </label><br>
+                    <option value="Flash Flood"></option>
+                    <option value="Major Flood"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Tornado"></option>
+                    <option value="Hail"></option>
+                    <option value="Heavy Rain"></option>
+                    <option value="Sand Storm"></option>
+                    </datalist>
+                    </label>
+                </div><br>
                 <label class="sbs" name="stormSeverity">Storm Severity  <input type="range" name="points" min="0" max="10">  0-10</label><br>
                 <!-- Attempt to have label display, from Pen example....
 <label for="rating">Storm Severity (1 to 10)</label>
@@ -71,18 +74,18 @@
                 <span id="ratingvalue"></span><br>
                 <div id="ratingvalue"></div>-->
                 <label class="sbs">Date <input type="date" name="completeDate"></label><br>
-                <label class="sbs">Danger Level   <input type="radio" name="dangerLevel" value="yes">Yes</label>
-                <label class="sbs"><input type="radio" name="dangerLevel2" value="no">No</label>
-                <label class="sbs"><input type="radio" name="dangerLevel3" value="maybe">Maybe</label><br>
-                <label class="sbs">Storm Region<select name="stormRegion">
+                <label class="sbs">Danger Level  <br> <input type="radio" name="dangerLevel" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="dangerLevel2" value="no"> No</label>
+                <label class="sbs"><input type="radio" name="dangerLevel3" value="maybe"> Maybe</label><br>
+                <label class="sbs">Storm Region <select name="stormRegion">
                     <option>Select Region</option>
                     <option value="Franklin">Franklin</option>
                     <option value="Greenville">Greenville</option>
                     <option value="Springfield">Springfield</option>
                     </select>
                 </label><br>
-                <label class="sbs">Additional Information</label><br>
-                <textarea class="sbs" name="addInfo"></textarea><br>
+                <label>Additional Information</label><br>
+                <textarea></textarea><br>
 
                 <input type="submit" value="Record Storm" class="submitBtn">
             </fieldset>
@@ -103,7 +106,7 @@
     </footer>
     <script src="scripts/currentdates.js"></script>
     <script src="scripts/hamburger.js"></script>
-    <!--<script src="scripts/ratingvalue.js"></script>-->
+
 </body>
 
 </html>
