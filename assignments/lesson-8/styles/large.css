@@ -63,9 +63,12 @@
     form header,
     nav,
     main,
-     {
+        {
         max-width: 64rem;
-        margin:auto;
+        margin: auto;
         text-align: left
+    }
+    form label.sbs {
+        padding: .4rem 0;
     }
 }
