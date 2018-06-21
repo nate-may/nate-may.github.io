@@ -62,8 +62,7 @@
     }
     form header,
     nav,
-    main,
-        {
+    main {
         max-width: 64rem;
         margin: auto;
         text-align: left

@@ -235,11 +235,11 @@ form label.sbs {
 }
 
 
-form label.top input: required {
+form label.top input required {
     border-left: red solid 6px;
 }
 
-form label.top input: required:valid {
+form label.top input required:valid {
     border-left: green solid 6px;
 }
 
