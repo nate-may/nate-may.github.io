@@ -81,7 +81,7 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Storm Watcher Information</legend>
-                <label class="top">Full Name*<br><input type="text" name="fullname" placeholder="John Doe" pattern="regular" required></label><br>
+                <label class="top">Full Name*<br><input type="text" name="fullname" placeholder="John Doe" pattern="[A-Za-z].{5,}" required title="Minimum of 5 characters required"></label><br>
                 <label class="top">Email<br><input type="email" name="email" placeholder="johndoe@gmail.com"></label><br>
                 <label class="top">Phone<br><input type="tel" name="phonenumber" required></label><br>
                 <label class="top">Zipcode<br><input type="number" name="zipcode" required></label>

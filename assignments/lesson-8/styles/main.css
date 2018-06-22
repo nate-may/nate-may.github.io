@@ -255,6 +255,10 @@ form input.submitBtn {
     max-width: 10rem;
 }
 
+.thanks {
+    color: darkblue;
+}
+
 /*** FOOTER ***/
 
 footer {
