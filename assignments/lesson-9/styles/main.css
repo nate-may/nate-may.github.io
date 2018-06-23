@@ -1,0 +1,268 @@
+/*** First I just took out the styles that weren't being used ***/
+
+* {
+    box-sizing: border-box;
+}
+
+/*** I changed the body margin to 0 so that the blue background stretches all the way to the edges***/
+
+/*** GENERAL STYLES ***/
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: aliceblue;
+    margin: 0;
+}
+
+/*** I added main to this list since it was being styled that way later on anyway. It could be included as a general style here.***/
+
+header,
+nav,
+main,
+footer {
+    max-width: 100%;
+    text-align: center;
+}
+
+/*** I took out the background color and made the words blue ***/
+
+/*** HEADER ***/
+
+header {
+    text-align: center;
+    color: dodgerblue;
+}
+
+/*** I reduced the margins for the title and subtitle, and changed the color of the subtitle for some contrast ***/
+
+header h1 {
+    margin: 20px 0 0 0;
+}
+
+header h2 {
+    margin: 5px;
+    color: darkblue;
+}
+
+/***NAVIGATION***/
+
+nav li {
+    display: none;
+}
+
+.navigation {
+    list-style: none;
+    padding-left: 0;
+}
+
+.hamburger {
+    display: flex;
+}
+
+/*** Media Query was here. I only removed the query and changed the color of the button. I made the font size bigger***/
+
+.navigation.responsive li {
+    background-color: skyblue;
+    /*** display block is the only way I know to make the whole button a link ***/
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 2px 0;
+    border: 1px solid #ddd;
+    font-size: 1.2rem;
+}
+
+.navigation.responsive li a {
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.navigation.responsive li a:hover {
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+
+.navigation.responsive li:hover {
+    color: dodgerblue;
+}
+
+.hamburger {
+    font-size: 1.5rem;
+    margin: 5px 20px;
+}
+
+/*** MAIN ***/
+
+/***I added some padding and styles for the section.weather-summary to give it some breathing room and to be more readable. I made the weather summary section blue instead of the whole main section to break up the color and divide the article from the summary.***/
+
+/*** this part wasn't being used
+main figure {
+margin: 0 0 .2rem 2%;
+width: 96%;
+} ***/
+
+section.weather-summary {
+    background-color: dodgerblue;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+div.summaryBorder {
+    border: 5px solid white;
+}
+
+/*** I changed the position of the sun ***/
+
+.current {
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+    max-width: 25%;
+    margin: auto;
+}
+
+/*** I added some styles for the article ***/
+
+article {
+    padding: 20px;
+    color: darkblue;
+}
+
+article h3 {
+    color: dodgerblue;
+    font-size: 1.6rem;
+}
+
+section.forecast {
+    display: none;
+}
+
+/***I added overflow: hidden so that the photo didn't go outside it's container***/
+
+figure.articlePhoto {
+    max-width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+/*** GALLERY ***/
+
+/***made the columns display at a percentage so they centered on the page***/
+
+/*Ingenious, the video in the course material was misleading then.*/
+
+.gallimgs {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+/*** added color to the captions***/
+
+.gallimgs figure {
+    padding-top: 0rem;
+    font-size: 16pt;
+    color: darkblue;
+}
+
+/**Gave the captions some more room***/
+
+.gallimgs figcaption {
+    padding-top: 1.2rem;
+}
+
+/*Form*/
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form label {
+    display: block;
+    padding-top: 1rem;
+    color: blue;
+    font-size: 12pt;
+}
+
+form legend {
+    color: blue;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    color: blue;
+    font-size: .8rem;
+    text-align: left;
+
+}
+
+form label.top input,
+form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 30rem;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+form label.sbs {
+    display: block;
+    color: blue;
+    text-align: left;
+}
+
+
+form label.top input required {
+    border-left: red solid 6px;
+}
+
+form label.top input required:valid {
+    border-left: green solid 6px;
+}
+
+form input.submitBtn {
+    display: flex;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0rem;
+    width: 96%;
+    max-width: 10rem;
+}
+
+.thanks {
+    color: darkblue;
+}
+
+/*** FOOTER ***/
+
+footer {
+    padding: 20px;
+    background-color: dodgerblue;
+    text-align: center;
+}
