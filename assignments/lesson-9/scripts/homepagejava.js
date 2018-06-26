@@ -7,11 +7,12 @@ request.responseType = 'json';
 request.send();
 request.onload = function() {
     var superHeroes = request.response;
-    populateHeader();
-    showHeroes();
+    populateHeader(---);
+    showHeroes(---);
 }
+//JSON will go in here, values, statistics, and display on HTML
 
-function populateHeader(jsonObj) {
+/*function populateHeader(jsonObj) {
     var myH1 = document.createElement('h1');
     myH1.textContent = jsonObj['squadName'];
     header.appendChild(myH1);
@@ -19,7 +20,7 @@ function populateHeader(jsonObj) {
     var myPara = document.createElement('p');
     myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
     header.appendChild(myPara);
-}
+}*/
 
 function showHeroes(jsonObj) {
     var heroes = jsonObj['members'];
@@ -37,22 +38,23 @@ function showHeroes(jsonObj) {
         myPara2.textContent = 'Age: ' + heroes[i].age;
         myPara3.textContent = 'Superpowers:';
 
-        var superPowers = heroes[i].powers;
+        /*var superPowers = heroes[i].powers;
         for (var j = 0; j < superPowers.length; j++) {
             var listItem = document.createElement('li');
             listItem.textContent = superPowers[j];
             myList.appendChild(listItem);
         }
-
-        myArticle.appendChild(myH2);
+*/
+      /*  myArticle.appendChild(myH2);
         myArticle.appendChild(myPara1);
         myArticle.appendChild(myPara2);
         myArticle.appendChild(myPara3);
         myArticle.appendChild(myList);
 
-        section.appendChild(myArticle);
+        section.appendChild(myArticle);*/
     }
 }
+/*
 request.responseType = 'json';
 request.open('GET', requestURL);
 request.responseType = 'text'; // now we're getting a string!
@@ -63,11 +65,11 @@ request.onload = function() {
     var superHeroes = JSON.parse(superHeroesText); // convert it to an object
     populateHeader(superHeroes);
     showHeroes(superHeroes);
-}
+}*/
 /*var myJSON = {
     "name": "Chris",
     "age": "38"
 };*/
-myJSON
+/*myJSON
 var myString = JSON.stringify(myJSON);
-myString
+myString*/
