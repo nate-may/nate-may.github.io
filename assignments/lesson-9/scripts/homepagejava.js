@@ -8,7 +8,7 @@ request.send();
 request.onload = function () {
     var townInfo = request.response;
     showData(townInfo);
-    showHeroes(-- - );
+
 }
 //JSON will go in here, values, statistics, and display on HTML
 
@@ -55,6 +55,7 @@ function showData(jsonObj) {
         myArticle.appendChild(myPara1);
         myArticle.appendChild(myPara2);
         myArticle.appendChild(myPara3);
+        myArticle.appendChild(myPara4);
         myArticle.appendChild(myList);
 
         section.appendChild(myArticle);

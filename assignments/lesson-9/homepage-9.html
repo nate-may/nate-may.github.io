@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Weather Page for Franklin-Site">
+    <meta name="author" content="Nathaniel D. May">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <title>The Franklin Weather Page</title>
+
+</head>
+
+<body>
+    <header>
+
+
+        <div class=titlestyle>
+            <h1>Franklin Weather Page</h1>
+            <h2>It's Always a Good Time to Check</h2>
+        </div>
+    </header>
+
+
+
+    <nav>
+        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+        <ul class="navigation">
+            <li><a href="/assignments/lesson-4/franklin-4.html">Home</a></li>
+            <li><a href="/assignments/lesson-7/franklin-7.html">Franklin</a></li>
+            <li><a href="#">Greenville</a></li>
+            <li><a href="#">Springfield</a></li>
+            <li><a href="/assignments/lesson-9/stormcenter.html">Storm Center</a></li>
+            <li><a href="/assignments/lesson-9/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <figure class="logo">
+            <img src="images/clocklogo.jpeg" alt="Landscape Image" sizes="100vw" srcset="images/clocklogo.jpeg 550w, images/clocklogo.jpeg 900w, images/clocklogo.jpeg 1024w">
+        </figure>
+
+        <!--  from JSON presentation example <div class="Franklin">
+            <h1>Franklin City</h1>
+            <h2>City Information: <span id=”place”></span>City</h2>
+            <p>
+            </p>
+            <br>
+        </div>
+        <h2>Average Rainfall: <span id=”average”>0.5</span>inch</h2>
+        <br>
+        <h2>City Events: <span id=”event”>event</span>inch</h2>
+
+        <div class="Springfield">
+            <p>
+            </p>
+        </div>
+        <div class="Greenville">
+            <p>
+            </p>
+        </div>-->
+
+    </main>
+
+    <footer>
+        <section class="contact">
+            <h3>
+                Nathaniel May, IL <br>may17014@byui.edu<br> (000)000-0000 BYU-Idaho Online</h3>
+        </section>
+        <section>
+
+            <h4>&copy;2018 | Nathaniel D. May | The Weather Clock <br> <span id="currentdate">
+                </span></h4>
+
+        </section>
+    </footer>
+    <script src="scripts/currentdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/homepagejava.js"></script>
+
+</body>
+
+</html>
