@@ -259,6 +259,12 @@ form input.submitBtn {
     color: darkblue;
 }
 
+.indexGallery img {
+    width: 300px;
+    height: auto;
+
+}
+
 /* **  HomePage  ** */
 
 section.article {
