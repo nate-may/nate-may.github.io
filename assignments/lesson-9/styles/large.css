@@ -45,6 +45,11 @@
         color: lightblue;
         background-color: dodgerblue;
     }
+    .logo {
+        display: flex;
+        flex-direction: column;
+
+    }
     .gallimgs {
         display: grid;
         grid-template-columns: 450px 450px 450px;
