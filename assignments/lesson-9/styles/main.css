@@ -266,11 +266,11 @@ section.article {
     grid-template-columns: 100%;
 }
 
-.homepage {
+/*.homepage {
     display: grid;
     grid-template-columns: 100%;
 
-}
+}*/
 
 /*** FOOTER ***/
 

@@ -23,6 +23,13 @@
     .hamburger {
         display: none;
     }
+    .homepage {
+        display: grid;
+        grid-template-columns: 450px 450px 450px;
+        justify-content: center;
+
+    }
+
     .navigation {
         background-color: darkblue;
         overflow: hidden;
