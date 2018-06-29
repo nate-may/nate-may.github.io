@@ -260,6 +260,8 @@ form input.submitBtn {
 }
 
 .indexGallery img {
+    display: flex;
+    flex-direction: row;
     width: 300px;
     height: auto;
 
