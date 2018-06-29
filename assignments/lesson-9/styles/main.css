@@ -259,9 +259,9 @@ form input.submitBtn {
     color: darkblue;
 }
 
-.indexGallery img {
+.indexGallery figure img {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     width: 300px;
     height: auto;
 
