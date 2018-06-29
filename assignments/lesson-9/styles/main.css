@@ -274,6 +274,10 @@ section.article {
     grid-template-columns: 100%;
 }
 
+.return {
+    color: darkblue;
+}
+
 /*.homepage {
     display: grid;
     grid-template-columns: 100%;
