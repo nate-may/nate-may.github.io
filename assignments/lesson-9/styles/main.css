@@ -259,13 +259,13 @@ form input.submitBtn {
     color: darkblue;
 }
 
-section.div.indexGallery {
+.div.indexGallery {
     padding: 0 2%;
     display: grid;
     grid-template-columns: auto;
 }
 
-section.div.indexGallery figure {
+.div.indexGallery figure {
     margin: 2rem 0;
 }
 
