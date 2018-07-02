@@ -23,19 +23,28 @@
     .hamburger {
         display: none;
     }
-    .homepage {
+    /*  .homepage {
         display: grid;
         grid-template-columns: 450px 450px 450px;
+        justify-content: center;
+
+    }*/
+    .indexGallery {
+        display: grid;
+        grid-template-columns: 450px 450px 450px;
+        justify-content: center;
+
+
+
+    }
+    .indexGallery.section {
         justify-content: center;
 
     }
-    .indexGallery figure img {
-        display: grid;
-        grid-template-columns: 450px 450px 450px;
-        justify-content: center;
-        width: 300px;
-        height: auto;
-
+    #a,
+    #b,
+    #c {
+        text-align: center;
     }
     .navigation {
         background-color: darkblue;
