@@ -11,8 +11,14 @@
 body {
     font-size: 16px;
     font-family: sans-serif;
-    color: black;
+    color: darkblue;
     margin: 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
 }
 
 /*** I added main to this list since it was being styled that way later on anyway. It could be included as a general style here.***/
@@ -31,7 +37,7 @@ footer {
 
 header {
     text-align: center;
-    color: dodgerblue;
+    color: darkblue;
 }
 
 /*** I reduced the margins for the title and subtitle, and changed the color of the subtitle for some contrast ***/
@@ -42,7 +48,7 @@ header h1 {
 
 header h2 {
     margin: 5px;
-    color: darkblue;
+    color: dodgerblue;
 }
 
 /***NAVIGATION***/
