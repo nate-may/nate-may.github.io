@@ -15,11 +15,7 @@ body {
     margin: 0;
 }
 
-.logo {
-    display: flex;
-    justify-content: flex-start;
-    width: 400px;
-}
+
 
 /*** I added main to this list since it was being styled that way later on anyway. It could be included as a general style here.***/
 
