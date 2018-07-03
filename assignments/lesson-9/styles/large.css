@@ -15,7 +15,7 @@
     header,
     nav {
         margin: 0 auto;
-        max-width: 100%;
+        max-width: 1025px;
     }
     h1 {
         text-align: center;
