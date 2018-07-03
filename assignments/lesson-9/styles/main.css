@@ -284,7 +284,7 @@ figcaption {
 }
 
 p {
-    font-size: 13pt;
+    font-size: 16pt;
 }
 
 /* **  HomePage  ** */
@@ -308,4 +308,6 @@ section.article {
 
 /*** FOOTER ***/
 
-footer {}
+footer {
+    font-size: 11pt;
+}
