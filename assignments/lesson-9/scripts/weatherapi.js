@@ -15,5 +15,5 @@ weatherRequest.onload = function () {
     document.getElementById("current-temp").innerHTML = weatherData.main.temp;
     document.getElementById("currentWind").innerHTML = weatherData.wind.speed;
 
-    //Please note I thouroughly studied Maria Zubia Flores/ Garcia's code. I also had help from Trevor Cuttler.
+    //Please note I thouroughly studied Maria Zubia Flores/ Garcias's code. I also had help from Trevor Cutler.
 }

@@ -268,10 +268,18 @@ form input.submitBtn {
 }
 
 figcaption {
-    font-size: 14pt;
+    font-size: 16pt;
 }
 
 h2,
+    {
+    color: darkblue;
+}
+
+article h3 {
+    color: darkblue;
+}
+
 p,
 figcaption {
     color: dodgerblue;
