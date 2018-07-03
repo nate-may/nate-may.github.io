@@ -15,5 +15,9 @@ weatherRequest.onload = function () {
     document.getElementById("current-temp").innerHTML = weatherData.main.temp;
     document.getElementById("currentWind").innerHTML = weatherData.wind.speed;
 
+    var iconcode = weatherData.weather[0].icon;
+
+    var icon_path = "//openweathermap.org/img/w/" + iconcode + ".png";
+    document.getElementById('weather_icon').src = icon_path;
     //Please note I thouroughly studied Maria Zubia Flores/ Garcias's code. I also had help from Trevor Cutler.
 }
