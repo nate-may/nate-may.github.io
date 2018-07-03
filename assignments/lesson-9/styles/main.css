@@ -267,6 +267,10 @@ form input.submitBtn {
     grid-template-columns: auto;
 }
 
+figcaption {
+    font-size: 14pt;
+}
+
 h2,
 p,
 figcaption {
