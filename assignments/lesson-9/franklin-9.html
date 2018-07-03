@@ -18,13 +18,14 @@
 <body>
     <header>
 
-        <figure class="weatherclock_logo">
-            <img src="images/weatherclock_logo_large.png" alt="Weather Clock Logo" sizes="100vw" srcset="images/logo-small.jpg 600w, images/logo-medium 800w, images/weatherclock_logo_large.png 1800w">
-        </figure>
+
         <div class=titlestyle>
             <h1>Franklin Weather Page</h1>
             <h2>It's Always a Good Time to Check</h2>
         </div>
+        <figure class="logo">
+            <img src="images/clocklogo_large.jpg" alt="Landscape Image" sizes="100vw" srcset="images/clocklogo_small.jpg 600w, images/clocklogo_med.jpg 800w, images/clocklogo_large.jpg 1800w">
+        </figure>
     </header>
 
 
@@ -36,7 +37,7 @@
             <li><a href="/assignments/lesson-9/franklin-9.html">Franklin</a></li>
             <li><a href="#">Greenville</a></li>
             <li><a href="#">Springfield</a></li>
-            <li><a href="/assignments/lesson-9/stormcenter.htm">Storm Center</a></li>
+            <li><a href="/assignments/lesson-9/stormcenter.html">Storm Center</a></li>
             <li><a href="/assignments/lesson-9/gallery.html">Gallery</a></li>
         </ul>
     </nav>
@@ -55,7 +56,7 @@
 
                 </div>
                 <div class="current">
-                    Sunny
+                    <span id="current-temp"></span> Sunny
                     <picture>
                         <img src="images/sunny.png" alt="Sunny" height="100">
                     </picture>
@@ -128,7 +129,7 @@
     </footer>
     <script src="scripts/currentdates.js"></script>
     <script src="scripts/hamburger.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weatherapi.js"></script>
 </body>
 
 </html>
