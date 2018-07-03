@@ -48,25 +48,35 @@
         </figure>
         <section class="weather-summary">
             <!--Div here thanks to Marilee, that allows for easier border styling-->
-            <div class=summaryBorder>
-                <h3>Weather Summary</h3>
-                <div class="highlow">
-                    <p>High:90&deg;F</p>
-                    <p>Low:66&deg;F</p>
 
-                </div>
-                <div class="current">
-                    <span id="current-temp"></span> Sunny
-                    <picture>
-                        <img src="images/sunny.png" alt="Sunny" height="100">
-                    </picture>
-                </div>
-                <div class="conditions">
-                    <p>Precipitation:0%</p>
-                    <p>Wind Speed:5 MPH SW</p>
-                    <p>Wind Chill: <span id="windChill"></span>&deg;F</p>
-                </div>
+
+            <span id="current-temp">&deg;F</span>
+
+
+            <div class="conditions">
+                <picture>
+                    <img src="images/sunny.png" alt="Sunny" height="100">
+                </picture><br>
+
+                <h2 id="forecast">Forecast</h2>
+
+                <h2>Weather conditions for <span id="place">city</span> :</h2>
+
+                <p>The current temperature in Franklin is <span id="current-temp"></span>&deg; F</p>
+
+                <p>Current temperature is: <span id="currentTemp">00</span>&deg;F</p>
+
+                <p>Weather Conditions: <span id="weatherDesc">00</span></p>
+
+                <p>Expected High Temperature: <span id="highTemp">00</span>&deg;F</p>
+
+                <p>Expected Low Temperature: <span id="lowTemp">00</span>&deg;F</p>
+
+                <p>Wind Speed: <span id="currentWind">00</span> mph</p>
+
+
             </div>
+
         </section>
 
         <section class="forecast">
