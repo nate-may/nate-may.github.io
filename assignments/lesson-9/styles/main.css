@@ -285,7 +285,9 @@ section.article {
 }
 
 .return {
+    text-align: center;
     color: darkblue;
+    font-size: 14px;
 }
 
 /*.homepage {
@@ -297,7 +299,9 @@ section.article {
 /*** FOOTER ***/
 
 footer {
-    padding: 20px;
-    background-color: dodgerblue;
-    text-align: center;
+    Width: 450px;
+    Margin: 20px auto;
+    Padding: 50px;
+    Border-width: 3px;
+    border-style: solid;
 }
