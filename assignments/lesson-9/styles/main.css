@@ -279,6 +279,10 @@ figcaption {
 
 }
 
+p {
+    font-size: 13pt;
+}
+
 /* **  HomePage  ** */
 
 section.article {
