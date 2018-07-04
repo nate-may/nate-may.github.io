@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Weather Page for Franklin-Site">
+    <meta name="author" content="Nathaniel D. May">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <title>The Franklin Weather Page</title>
+
+</head>
+
+<body>
+    <header>
+
+
+        <div class=titlestyle>
+            <h1>Franklin Weather Page</h1>
+            <h2>It's Always a Good Time to Check</h2>
+        </div>
+        <figure class="logo">
+            <img src="images/clocklogo_large.jpg" alt="Landscape Image" sizes="100vw" srcset="images/clocklogo_small.jpg 600w, images/clocklogo_med.jpg 800w, images/clocklogo_large.jpg 1800w">
+        </figure>
+    </header>
+
+
+
+    <nav>
+        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+        <ul class="navigation">
+            <li><a href="/assignments/lesson-10/homepage-10.html">Home</a></li>
+            <li><a href="/assignments/lesson-10/franklin-10.html">Franklin</a></li>
+            <li><a href="/assignments/lesson-10/greenville.html">Greenville</a></li>
+            <li><a href="/assignments/lesson-10/springfield.html">Springfield</a></li>
+            <li><a href="/assignments/lesson-10/stormcenter.html">Storm Center</a></li>
+            <li><a href="/assignments/lesson-10/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section class="weather-summary">
+            <!--Div here thanks to Marilee, that allows for easier border styling-->
+
+
+
+
+
+            <div class="conditions">
+                <br>
+
+                <h2 id="forecast">Weather Summary</h2>
+
+                <p>Weather conditions for <span id="place">city</span> :</p>
+
+                <img src="images/sunny.png" alt="current weather" id="weather_icon">
+                <p>Current temperature is: <span id="current-temp"></span>&deg;F</p>
+
+                <p>Weather Conditions: <span id="weatherDesc"></span></p>
+
+                <p>Expected High Temperature: <span id="highTemp">00</span>&deg;F</p>
+
+                <p>Expected Low Temperature: <span id="lowTemp">00</span>&deg;F</p>
+
+                <p>Wind Speed: <span id="currentWind">00</span> mph</p>
+
+
+            </div>
+
+        </section>
+
+        <section class="forecast">
+            <h3>Ten Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>89&deg;F</td>
+                        <td>87&deg;F</td>
+                        <td>78&deg;F</td>
+                        <td>75&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>79&deg;F</td>
+                        <td>83&deg;F</td>
+                        <td>85&deg;F</td>
+                        <td>89&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <article>
+            <h3>Franklin Breaks Record</h3>
+            <figure class="articlePhoto">
+                <img src="images/franklin-large.jpg" alt="franklinphoto" sizes="100vw" srcset="images/franklin-small.jpg 600w, images/franklin-medium.jpg 800w, images/franklin-large.jpg 1200w">
+            </figure>
+            <p class="town-article">
+                Franklin breaks record highs! The short-lived Spring season has shocked the locals and baffled meteorologists thoughout the tri-county area.
+            </p>
+        </article>
+
+    </main>
+    <div class="return">
+        <a href="https://nate-may.github.io">Return to Portal</a>
+    </div>
+    <footer>
+        <section class="contact">
+            <h3>
+                Nathaniel May, IL | may17014@byui.edu<br> (000)000-0000 BYU-Idaho Online</h3>
+        </section>
+        <section class="footer-bar">
+
+            <h4>&copy;2018 | Nathaniel D. May | The Weather Clock <br> <span id="currentdate">
+                    </span></h4>
+
+        </section>
+    </footer>
+    <script src="scripts/currentdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+</body>
+
+</html>

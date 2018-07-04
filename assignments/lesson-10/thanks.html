@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Storm Center Page">
+    <meta name="author" content="Nathaniel D. May">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <title>The Franklin Weather Page</title>
+
+</head>
+
+<body>
+    <header>
+
+        <figure class="weatherclock_logo">
+            <img src="images/weatherclock_logo_large.png" alt="Weather Clock Logo" sizes="100vw" srcset="images/logo-small.jpg 600w, images/logo-medium 800w, images/weatherclock_logo_large.png 1800w">
+        </figure>
+        <div class=titlestyle>
+            <h1>Franklin Weather Page</h1>
+            <h2>It's Always a Good Time to Check</h2>
+        </div>
+    </header>
+
+
+
+    <nav>
+        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+        <ul class="navigation">
+            <li><a href="/assignments/lesson-8/franklin-8.html">Home</a></li>
+            <li><a href="/assignments/lesson-7/franklin-7.html">Franklin</a></li>
+            <li><a href="#">Greenville</a></li>
+            <li><a href="#">Springfield</a></li>
+            <li><a href="/assignments/lesson-8/stormcenter.html">Storm Center</a></li>
+            <li><a href="/assignments/lesson-8/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <h1 class="thanks">Completed!</h1>
+        <p class="thanks">Thanks for completing our form!<br> Your storm is being processed. Please allow 1-3 business days for your information to be uploaded and displayed. </p>
+    </main>
+    <footer>
+        <section class="contact">
+            <h3>
+                Nathaniel May, IL | may17014@byui.edu<br> (000)000-0000 BYU-Idaho Online</h3>
+        </section>
+        <section class="footer-bar">
+
+            <h4>&copy;2018 | Nathaniel D. May | The Weather Clock <br> <span id="currentdate">
+                    </span></h4>
+
+        </section>
+    </footer>
+    <script src="scripts/currentdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+</body>
+
+</html>
