@@ -3,6 +3,9 @@ Introduction to jQuery (Learnable) | August 2014 */
 
 /*@import url(//fonts.googleapis.com/css?family=Raleway);*/
 
+/*This Google font API threw an error, though HTML still validate
+remember in case I want to put it back*/
+
 * {
     font-family: sans-serif;
     margin: 0px;
