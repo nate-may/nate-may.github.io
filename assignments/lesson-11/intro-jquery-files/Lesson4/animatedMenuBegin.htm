@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Animated Menu</title>
     <link rel="stylesheet" href="css/animatedMenu.css">
     <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
-     <script>
+    <script>
         $(function() {
-            // All jQuery code goes here
+            // Animated Menu
+            $('.navigation > li').hover(function() {
+                    //This code executes when the mouse pointer is over the list item
+                    $(this).addClass('openSesame');
 
+                },
+                function() {
+                    //this code executes when the mouse ointer leaves the list item
+                    $(this).removeClass('openSesame');
+                });
         })
     </script>
 </head>
 
 <body>
+    <div class="return">
+        <a href="index.htm">Return to Alcove</a>
+    </div>
     <ul class="navigation">
         <li>About Us</li>
         <li>Services</li>
@@ -21,9 +33,8 @@
         <li>Blog</li>
         <li>Contact</li>
     </ul>
-    <div class="return">
-        <a href="index.htm">Return to Alcove</a>
-    </div>
+
 
 </body>
+
 </html>
