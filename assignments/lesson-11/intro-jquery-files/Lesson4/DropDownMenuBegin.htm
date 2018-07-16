@@ -5,15 +5,27 @@
     <title>Dropdown Menu</title>
     <link rel="stylesheet" href="css/dropdownmenu.css">
     <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
-     <script>
-          $(function(){
-        // All jQuery code goes here
+    <script>
+        $(function() {
+            // Slide Effects
+            $('.dropdownMenu > li').hover(function() {
+                //Mouseover
 
-    })
+                $(this).children("ul").slideDown(200);
+            }, function {
+                //Mouseout
+
+                $(this).children("ul").slideUp(200);
+
+
+            })
+
+        })
     </script>
 </head>
+
 <body>
-<ul class="dropdownMenu">
+    <ul class="dropdownMenu">
         <li>Apples
             <ul>
                 <li>Jam</li>
@@ -45,7 +57,7 @@
                 <li>Crush</li>
             </ul>
         </li>
-</ul>
+    </ul>
     <div class="return">
         <a href="index.htm">Return to Alcove</a>
     </div>
