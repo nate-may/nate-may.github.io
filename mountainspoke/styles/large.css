@@ -42,8 +42,8 @@
         font-size: 1.3rem;
     }
     .navigation a:hover {
-        color: olivedrab;
-        background-color: darkgreen;
+        color: darkgreen;
+        background-color: olivedrab;
     }
     .logo {
         display: flex;
