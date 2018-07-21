@@ -58,7 +58,7 @@ nav li {
 .navigation.responsive li {
     background-color: darkgreen;
     /*Using Display Block to make whole button a link*/
-    display: black;
+    display: block;
     align-items: center;
     flex-direction: column;
     width: 100%;
