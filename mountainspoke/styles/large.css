@@ -3,8 +3,9 @@
         display: flex;
     }
     nav ul li {
-        display: flex;
+        display: block;
     }
+
     /*large css for hamb menu*/
     body {
         font-size: 16px;
