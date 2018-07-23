@@ -6,7 +6,7 @@
 
 body {
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: black;
 }
 
@@ -90,5 +90,6 @@ nav li {
 }
 
 footer div {
+    text-align: center;
     font-size: 11pt;
 }
