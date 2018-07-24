@@ -35,7 +35,19 @@ header h2 {
     margin: 5px;
     color: forestgreen;
 }
+h2{
+    color: forestgreen;
+}
+article {
+    display: block;
+    align-items: center;
 
+    padding: 2.5rem;
+    margin: 5rem;
+    border: solid;
+    border-color: forestgreen;
+
+}
 /*****Navigation*****/
 
 /*Keeps list from displaying in small view for hamb. menu to take effect*/
