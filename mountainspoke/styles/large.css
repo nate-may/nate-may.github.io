@@ -1,7 +1,5 @@
 @media only screen and (min-width: 64em) {
-    section.forecast {
-        display: flex;
-    }
+
     nav ul li {
         display: block;
     }
@@ -57,3 +55,4 @@
     footer {
         padding: 25px;
     }
+}
