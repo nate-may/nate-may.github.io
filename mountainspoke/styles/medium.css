@@ -37,4 +37,7 @@
         color: darkolivegreen;
         background-color: olivedrab;
     }
+    body {
+        font-size: 18px;
+    }
 }

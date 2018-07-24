@@ -5,7 +5,7 @@
 /*General Body*/
 
 body {
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Poppins', sans-serif;
     color: black;
 }
@@ -29,15 +29,18 @@ header {
 
 header h1 {
     margin: 20px 0 0 0;
+    font-size: 20pt;
 }
 
 header h2 {
     margin: 5px;
     color: forestgreen;
 }
-h2{
+
+h2 {
     color: forestgreen;
 }
+
 article {
     display: block;
     align-items: center;
@@ -48,6 +51,7 @@ article {
     border-color: forestgreen;
 
 }
+
 /*****Navigation*****/
 
 /*Keeps list from displaying in small view for hamb. menu to take effect*/
