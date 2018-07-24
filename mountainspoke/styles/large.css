@@ -50,6 +50,10 @@
         display: flex;
         flex-direction: column;
     }
+    /* main figure{
+        display: flex;
+        justify-content: flex-start;
+    }*/
     footer {
         padding: 25px;
     }
