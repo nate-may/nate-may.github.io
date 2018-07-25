@@ -79,7 +79,7 @@ article {
 .mild {
     display: flex;
     justify-content: center;
-    padding-left: 5rem;
+    padding-right: 5rem;
     width: 100%;
     height: auto;
 }
@@ -87,7 +87,7 @@ article {
 .medium {
     display: flex;
     justify-content: center;
-    padding-left: 5rem;
+    padding-right: 5rem;
     width: 100%;
     height: auto;
 }
