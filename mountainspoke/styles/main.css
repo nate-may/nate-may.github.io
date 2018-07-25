@@ -87,7 +87,7 @@ article {
 .medium {
     display: flex;
     justify-content: center;
-    padding-right: 7.5rem;
+    padding-left: 5rem;
     width: 100%;
     height: auto;
 }
@@ -95,7 +95,7 @@ article {
 .extreme {
     display: flex;
     justify-content: center;
-    padding-right: 7.5rem;
+    padding-left: 5rem;
     width: 100%;
     height: auto;
 }
