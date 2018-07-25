@@ -38,6 +38,7 @@ header h2 {
 }
 
 h2 {
+    margin: 2.5px;
     color: forestgreen;
 }
 
@@ -45,8 +46,8 @@ article {
     display: block;
     align-items: center;
 
-    padding: 1rem;
-    margin: 1rem;
+    padding: .5rem;
+    margin: .5rem;
     border: solid;
     border-color: forestgreen;
 
