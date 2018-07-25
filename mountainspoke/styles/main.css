@@ -66,13 +66,6 @@ article {
 
 }
 
-main figcaption {
-    display: flex;
-    justify-content: center;
-    color: darkgreen;
-    padding-right: 2.5rem;
-}
-
 .goPro {
     display: flex;
     justify-content: center;
@@ -86,7 +79,7 @@ main figcaption {
 .mild {
     display: flex;
     justify-content: center;
-    padding-right: 5rem;
+    padding-left: 5rem;
     width: 100%;
     height: auto;
 }
