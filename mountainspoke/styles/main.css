@@ -58,12 +58,12 @@ article {
 
 }
 
-main figure {
+.backgroundimg {
     display: flex;
     justify-content: center;
-    overflow: hidden;
-    max-width: 100%;
-    padding-right: 2.5rem;
+    width: 100%;
+    height: auto;
+
 }
 
 main figcaption {
