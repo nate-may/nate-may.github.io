@@ -149,6 +149,124 @@ nav li {
     color: olivedrab;
 }
 
+/**Unfortunately haven't figured out wayfinding**/
+
+/*This works while clicking, and that is it*/
+
+.navigation.responsive li a:enabled {
+    background-color: green;
+    color: antiquewhite;
+}
+
+/*.navigation.responsive.active {
+    background-color: olivedrab;
+    color: antiquewhite;
+}*/
+
+/*Form Styling*/
+
+form fieldset {
+    display: block;
+    margin: 2rem 0;
+    border: 1px solid;
+    border-color: green;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    width: 450px;
+}
+
+form label {
+    display: block;
+
+    padding-top: 1rem;
+    color: blue;
+    font-size: 12pt;
+}
+
+form legend {
+    color: darkgreen;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+.frmlegends {
+    max-width: 25rem;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid;
+    border-color: green;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form label.top,
+form div {
+    display: block;
+
+    padding-top: 1rem;
+    color: darkgreen;
+    font-size: 12pt;
+    text-align: left;
+
+}
+
+form label.top input,
+form label.top select {
+    display: block;
+
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 30rem;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.slidecontainer label {
+    color: darkgreen;
+}
+
+.myRange label {
+    color: darkgreen;
+}
+
+span {
+    color: darkgreen;
+}
+
+form label.sbs {
+    display: block;
+
+    color: darkgreen;
+    text-align: left;
+}
+
+
+form label.top input required {
+    border-left: red solid 6px;
+}
+
+form label.top input required:valid {
+    border-left: green solid 6px;
+}
+
+form input.submitBtn {
+    display: block;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0rem;
+    width: 96%;
+    max-width: 13rem;
+}
+
 .hamburger {
     font-size: 1.5rem;
     margin: 5px 20px;

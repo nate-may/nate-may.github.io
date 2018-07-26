@@ -41,6 +41,50 @@
 
 
     <main>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend class="frmlegends">Hiker Contact Information</legend>
+                <label class="top">Full Name: *<br><input type="text" name="fullname" placeholder="John Doe" pattern="[A-Za-z].{5,}" required title="Minimum of 5 characters required"></label><br>
+                <label class="top">Email: <br><input type="email" name="email" placeholder="johndoe@gmail.com"></label><br>
+                <label class="top">Phone: <br><input type="tel" name="phonenumber" required></label><br>
+                <label class="top">Zipcode: <br><input type="number" name="zipcode" required></label>
+            </fieldset>
+            <fieldset>
+                <legend class="frmlegends">Trail Request</legend>
+                <div>
+                    <label class="sbs"><span>Trail Type: <br><br> </span><input type="text" name="trailtype" list="trails">
+                        <datalist id="trails">
+                            <option>Please Select Type</option>
+                            <option value="Mild Trail"></option>
+                            <option value="Medium Trail"></option>
+                            <option value="Extreme Trail"></option>
+
+                        </datalist>
+                    </label>
+                </div><br>
+                <br>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="10" value="5" class="slider" id="myRange">&ensp;
+                    <br><label>Endurance/Experience Level:  <span id="demo"></span></label>
+                </div>
+
+                <label class="sbs">Date: &ensp; <input type="date" name="completeDate"></label><br>
+                <label class="sbs">Go-Pro&ensp; <br><input type="radio" name="goPro" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="goPro2" value="no"> No</label>
+                <label class="sbs"><input type="radio" name="goPro3" value="maybe"> Maybe</label><br>
+                <label class="sbs">Tour Size &ensp;<select name="tourSize">
+                    <option>Select Size&ensp;</option>
+                    <option value="Single">Single</option>
+                    <option value="Couple">Couple</option>
+                    <option value="Group/Family">Group/Family</option>
+                    </select>
+                </label><br>
+                <div><label><span  class="special"> Additional Information/Special Requests:&ensp;</span><br><textarea></textarea></label><br></div>
+                <br>
+
+                <input type="submit" value="Request Trail Tour" class="submitBtn">
+            </fieldset>
+        </form>
     </main>
     <footer>
         <div>
@@ -55,8 +99,17 @@
     </footer>
 
 
-<script src="scripts/currentdate.js"></script>
-<script src="scripts/hambmenu.js"></script>
-    </body>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hambmenu.js"></script>
+    <script>
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        output.innerHTML = slider.value;
+
+        slider.oninput = function() {
+            output.innerHTML = this.value;
+        }
+    </script>
+</body>
 
 </html>

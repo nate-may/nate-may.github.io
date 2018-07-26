@@ -44,6 +44,10 @@
         color: darkgreen;
         background-color: olivedrab;
     }
+    .hamburger li a:active {
+        background-color: green;
+        color: antiquewhite;
+    }
     .logo {
         display: flex;
         flex-direction: column;

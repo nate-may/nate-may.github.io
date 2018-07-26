@@ -37,6 +37,10 @@
         color: darkolivegreen;
         background-color: olivedrab;
     }
+    .navigation.responsive li a:active {
+        background-color: green;
+        color: antiquewhite;
+    }
     body {
         font-size: 18px;
     }
