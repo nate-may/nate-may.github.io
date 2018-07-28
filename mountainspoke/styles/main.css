@@ -53,13 +53,14 @@ h2 {
 }
 
 article {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     margin: auto;
     padding: .5rem;
     margin: .5rem;
     border: solid;
     border-color: forestgreen;
+    max-width: 75%;
 
 }
 
