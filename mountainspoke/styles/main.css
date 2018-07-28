@@ -181,10 +181,14 @@ nav li {
     color: antiquewhite;
 }*/
 
+/*ctcd img*/
+
+.ctcd {}
+
 /*Form Styling*/
 
 form fieldset {
-    display: flex;
+    display: block;
     justify-content: center;
     margin: auto;
     border: 1px solid;
