@@ -182,8 +182,8 @@ nav li {
 /*Form Styling*/
 
 form fieldset {
-    display: flex;
-    justify-content: center;
+    display: block;
+
     margin: 2rem 0;
     border: 1px solid;
     border-color: green;
