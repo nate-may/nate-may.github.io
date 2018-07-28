@@ -52,7 +52,10 @@
         display: flex;
         flex-direction: column;
     }
-
+    .event {
+        margin-left: 25rem;
+        margin-right: 25rem;
+    }
     footer {
         padding: 25px;
     }

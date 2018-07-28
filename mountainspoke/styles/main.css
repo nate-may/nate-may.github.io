@@ -13,7 +13,7 @@ body {
 header,
 nav,
 main,
-fotter {
+footer {
     max-width: 100%;
     text-align: center;
 }
@@ -47,6 +47,11 @@ h2 {
     color: forestgreen;
 }
 
+.finePrint {
+    font-size: 12pt;
+    color: darkgreen;
+}
+
 article {
     display: block;
     align-items: center;
@@ -58,6 +63,16 @@ article {
 
 }
 
+section h3 {
+    color: limegreen;
+}
+
+section p {
+    display: block;
+    justify-content: center;
+    max-width: 450px;
+}
+
 .backgroundimg {
     display: flex;
     justify-content: center;
@@ -65,6 +80,7 @@ article {
     height: auto;
 
 }
+
 
 .goPro {
     display: flex;
@@ -166,7 +182,8 @@ nav li {
 /*Form Styling*/
 
 form fieldset {
-    display: block;
+    display: flex;
+    justify-content: center;
     margin: 2rem 0;
     border: 1px solid;
     border-color: green;
@@ -213,7 +230,9 @@ form div {
 }
 
 form label.top input,
-form label.top select {
+form label.top select,
+form label.sbs input,
+form label.sbs select {
     display: block;
 
     font-size: 1rem;
@@ -272,7 +291,9 @@ form input.submitBtn {
     margin: 5px 20px;
 }
 
+
 footer div {
     text-align: center;
     font-size: 11pt;
+    color: darkgreen;
 }
