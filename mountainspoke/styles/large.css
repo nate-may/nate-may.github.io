@@ -56,6 +56,12 @@
         margin-left: 25rem;
         margin-right: 25rem;
     }
+    /*Events Form*/
+    form fieldset {
+        display: block;
+        justify-content: center;
+        margin-left: 45rem;
+    }
     footer {
         padding: 25px;
     }
