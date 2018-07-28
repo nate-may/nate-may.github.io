@@ -53,9 +53,9 @@ h2 {
 }
 
 article {
-    display: block;
-    align-items: center;
-
+    display: flex;
+    justify-content: center;
+    margin: auto;
     padding: .5rem;
     margin: .5rem;
     border: solid;
@@ -67,9 +67,10 @@ section h3 {
     color: limegreen;
 }
 
-section p {
+section article {
     display: block;
     justify-content: center;
+    margin: auto;
     max-width: 450px;
 }
 
@@ -182,9 +183,9 @@ nav li {
 /*Form Styling*/
 
 form fieldset {
-    display: grid;
+    display: flex;
     justify-content: center;
-    margin: 2rem 0;
+    margin: auto;
     border: 1px solid;
     border-color: green;
     border-radius: 10px;
