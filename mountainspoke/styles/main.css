@@ -183,8 +183,37 @@ nav li {
 
 /*ctcd img*/
 
+figcaption {
+    color: darkgreen
+}
+
+/*Events Page Continental Divie IMG*/
+
 .ctcd {
     width: 640px;
+    height: auto;
+}
+
+/*Sales Page*/
+
+.bike2 {
+    width: 100%;
+    margin: 0rem;
+    padding: 10px;
+    height: auto;
+}
+
+.picnic {
+    width: 100%;
+    margin: 0rem;
+    padding: 10px;
+    height: auto;
+}
+
+.bike3 {
+    width: 100%;
+    margin: 0rem;
+    padding: 10px;
     height: auto;
 }
 
