@@ -11,10 +11,26 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-
+    <link rel="stylesheet" href="dropdownmenu.css">
+    <!--External jQuery Library Reference-->
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
 
     <title>The Sales Page</title>
-
+    <script>
+        $(function() {
+            // Slide Effects
+            /*$('.dropdownMenu > li').hover(function() {
+                //Mouseover
+                $(this).children("ul").slideDown(200);
+            }, function() {
+                //Mouseout
+                $(this).children("ul").slideUp(200);
+            })*/
+            $('.dropdownMenu > li').hover(function() {
+                $(this).children("ul").slideToggle(200);
+            })
+        })
+    </script>
 
 </head>
 
@@ -28,6 +44,7 @@
     </header>
     <!--Nav Menu-->
     <nav>
+        <!--
         <button class="hamburger" onclick="toggleHam()">&#9776;</button>
         <ul class="navigation">
             <li><a href="/mountainspoke/index.html">Home</a></li>
@@ -36,12 +53,37 @@
             <li><a href="/mountainspoke/sales.html">Sales</a></li>
             <li><a href="/mountainspoke/services.html">Service</a></li>
             <li><a href="/mountainspoke/contactinfo.html">Contact Info</a></li>
-        </ul>
+        </ul>-->
     </nav>
 
 
-    <main>
-    </main>
+
+
+        <ul class="dropdownMenu">
+            <li>Mountain
+                <ul>
+                    <li>25 PSI Tires</li>
+                    <li>Water Bottle Hanger</li>
+                    <li>Go-Pro Fixture Available</li>
+                </ul>
+            </li>
+            <li>Picnic
+                <ul>
+                    <li>Red</li>
+                    <li>Blue</li>
+                    <li>Yellow</li>
+                </ul>
+            </li>
+            <li>Heavy Terrain
+                <ul>
+                    <li>35 PSI Tires</li>
+                    <li>Locking Watter Bottle Hanger</li>
+                    <li>Custom Colors Available</li>
+                </ul>
+            </li>
+
+        </ul>
+
     <footer>
         <div>
             may17014@byui.edu<br> references PlaceHolder BYU-Idaho Online
@@ -55,8 +97,8 @@
     </footer>
 
 
-<script src="scripts/currentdate.js"></script>
-<script src="scripts/hambmenu.js"></script>
-    </body>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hambmenu.js"></script>
+</body>
 
 </html>
