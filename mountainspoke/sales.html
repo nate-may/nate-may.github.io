@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <link rel="stylesheet" href="dropdownmenu.css">
+    <link rel="stylesheet" href="styles/dropdownmenu.css">
     <!--External jQuery Library Reference-->
     <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
 
@@ -56,35 +56,39 @@
         </ul>-->
     </nav>
 
+    <div>
+        <main>
 
+            <ul class="dropdownMenu">
+                <li>Mountain
+                    <ul>
+                        <li>$249.99</li>
+                        <li>25 PSI Tires</li>
+                        <li>Water Bottle Hanger</li>
+                        <li>Go-Pro Fixture Available</li>
+                    </ul>
+                </li>
+                <li>Huffy-Picnic
+                    <ul>
+                        <li>$179.99</li>
+                        <li>Red</li>
+                        <li>Blue</li>
+                        <li>Yellow</li>
+                    </ul>
+                </li>
+                <li>Heavy Terrain
+                    <ul>
+                        <li>$349.99</li>
+                        <li>35 PSI Tires</li>
+                        <li>Locking Watter Bottle Hanger</li>
+                        <li>Custom Colors Available</li>
+                    </ul>
+                </li>
 
-
-        <ul class="dropdownMenu">
-            <li>Mountain
-                <ul>
-                    <li>25 PSI Tires</li>
-                    <li>Water Bottle Hanger</li>
-                    <li>Go-Pro Fixture Available</li>
-                </ul>
-            </li>
-            <li>Picnic
-                <ul>
-                    <li>Red</li>
-                    <li>Blue</li>
-                    <li>Yellow</li>
-                </ul>
-            </li>
-            <li>Heavy Terrain
-                <ul>
-                    <li>35 PSI Tires</li>
-                    <li>Locking Watter Bottle Hanger</li>
-                    <li>Custom Colors Available</li>
-                </ul>
-            </li>
-
-        </ul>
-
-    <footer>
+            </ul>
+        </main>
+    </div>
+    <footer id="footer">
         <div>
             may17014@byui.edu<br> references PlaceHolder BYU-Idaho Online
         </div>
@@ -95,7 +99,18 @@
 
         </div>
     </footer>
-
+    <!--stackoverflow-->
+    <!--<script>
+        x = $('#div-that-increase-height').height()+20; // +20 gives space between div and footer
+        y = $(window).height();
+        if (x+100<=y){ // 100 is the height of your footer
+            $('#footer').css('top', y-100+'px');// again 100 is the height of your footer
+            $('#footer').css('display', 'block');
+        }else{
+            $('#footer').css('top', x+'px');
+            $('#footer').css('display', 'block');
+        }
+    </script>-->
 
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/hambmenu.js"></script>
