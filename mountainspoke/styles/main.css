@@ -319,7 +319,7 @@ form input.submitBtn {
 }
 
 .ref ul li {
-    text-align: left;
+    display: block;
     list-style-position: inside;
 }
 
