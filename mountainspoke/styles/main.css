@@ -318,6 +318,11 @@ form input.submitBtn {
     max-width: 13rem;
 }
 
+.ref ul li {
+    text-align: left;
+    list-style-position: inside;
+}
+
 .hamburger {
     font-size: 1.5rem;
     margin: 5px 20px;
